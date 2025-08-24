@@ -89,7 +89,8 @@ if st.button("🔄 Replace in Footer"):
 st.markdown("""
     <hr style="margin-top:40px;margin-bottom:10px;">
     <div style="text-align:center; color:gray; font-size:14px;">
-        Developed with ❤️ by <b>Rushindhra Marri</b> <br>
+        Developed with ❤️ by <b>Rushindhra & Nihesh</b> <br>
         <b>Roll Number PDF Editor</b> © 2025
     </div>
 """, unsafe_allow_html=True)
+
