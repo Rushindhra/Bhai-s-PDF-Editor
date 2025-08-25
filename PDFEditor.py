@@ -76,7 +76,7 @@ if replace_name:
     with col3:
         old_name = st.text_input("Old name", placeholder="e.g., Bhai")
     with col4:
-        new_name = st.text_input("New name", placeholder="e.g., John Doe")
+        new_name = st.text_input("New name", placeholder="e.g., Don")
 
 # --- Action Button ---
 if st.button("🔄 Replace in Footer"):
@@ -113,3 +113,4 @@ st.markdown("""
         <b>Bhai's PDF Editor</b> © 2025
     </div>
 """, unsafe_allow_html=True)
+
