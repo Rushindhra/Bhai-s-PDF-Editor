@@ -63,9 +63,9 @@ uploaded = st.file_uploader("📂 Upload PDF file", type=["pdf"])
 st.subheader("🔢 Roll Number Replacement")
 col1, col2 = st.columns(2)
 with col1:
-    old_roll = st.text_input("Old roll number", placeholder="e.g., 23071A1234")
+    old_roll = st.text_input("Old roll number", placeholder="e.g., 23071A12##")
 with col2:
-    new_roll = st.text_input("New roll number", placeholder="e.g., 23071A1250")
+    new_roll = st.text_input("New roll number", placeholder="e.g., 23071A12##")
 
 # --- Name Replacement (optional) ---
 st.subheader("👤 Name Replacement (Optional)")
@@ -109,8 +109,9 @@ if st.button("🔄 Replace in Footer"):
 st.markdown("""
     <hr style="margin-top:40px;margin-bottom:10px;">
     <div style="text-align:center; color:gray; font-size:14px;">
-        Developed with ❤️ by <b>Rushindhra & Nihesh</b> <br>
+        Developed with ❤️ by <b>IT - A</b> <br>
         <b>Bhai's PDF Editor</b> © 2025
     </div>
 """, unsafe_allow_html=True)
+
 
